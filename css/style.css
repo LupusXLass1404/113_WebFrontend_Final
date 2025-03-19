@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Itim&family=Noto+Sans+TC:wght@100..900&display=swap');
 
+@font-face {
+    font-family: 'MasaFont-Bold';
+    src: url('../fonts/MasaFont-Bold.ttf') format('truetype');
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,6 +18,13 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+#home {
+    font-family: 'MasaFont-Bold', sans-serif;
+    font-size: 80px;
+    color: #C39D62;
+    vertical-align: middle;
 }
 
 header {
